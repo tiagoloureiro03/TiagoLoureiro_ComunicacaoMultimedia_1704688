@@ -15,7 +15,7 @@ import android.view.View;
     }
 
         public void Enviar(View view) {
-        Intent intent=new Intent(this,MainActivity2.class)
-            startActivity(intent)
+        Intent intent=new Intent(this,MainActivity2.class);
+            startActivity(intent);
         }
     }
