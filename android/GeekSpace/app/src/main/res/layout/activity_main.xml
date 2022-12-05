@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/bangers"
-        android:text="GEEK WORLD"
+        android:text="GEEK SPACE"
         android:textColor="#AB47BC"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,13 +30,20 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#AB47BC"
-        android:backgroundTint="#AB47BC"
+        android:layout_width="119dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="#AA47BB"
+        android:fontFamily="@font/bangers"
         android:text="ENTRAR"
-        app:iconTint="#AB47BC"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="504dp" />
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
